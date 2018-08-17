@@ -32,6 +32,7 @@ var (
 		ERROR:    ColorSeq(ColorRed),
 		WARNING:  ColorSeq(ColorYellow),
 		NOTICE:   ColorSeq(ColorGreen),
+		INFO:     ColorSeq(ColorGreen),
 		DEBUG:    ColorSeq(ColorCyan),
 	}
 	boldcolors = []string{
@@ -39,6 +40,7 @@ var (
 		ERROR:    ColorSeqBold(ColorRed),
 		WARNING:  ColorSeqBold(ColorYellow),
 		NOTICE:   ColorSeqBold(ColorGreen),
+		INFO:     ColorSeq(ColorGreen),
 		DEBUG:    ColorSeqBold(ColorCyan),
 	}
 )
