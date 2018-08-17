@@ -52,7 +52,7 @@ type LogBackend struct {
 
 // NewLogBackend creates a new LogBackend.
 func NewLogBackend(out io.Writer, prefix string, flag int) *LogBackend {
-	return &LogBackend{Logger: log.New(out, prefix, flag)}
+	return &LogBackend{Logger: log.New(out, prefix, flag),Color: true}
 }
 
 // Log implements the Backend interface.
